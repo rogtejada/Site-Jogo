@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    color: #333;
+}
+a:link, a:active, a:visited{
+    color: #333;
+	text-decoration: none;
+}
+.linha{
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;	
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+.col1{
+	width: 60px;
+}
+.col2{
+	width: 140px;
+}
+.col3{
+	width: 220px;
+}
+.col4{
+	width: 300px;
+}
+.col5{
+	width: 380px;
+}
+.col6{
+	width: 460px;
+}
+.col7{
+	width: 540px;
+}
+.col8{
+	width: 620px;
+}
+.col9{
+	width: 700px;
+}
+.col10{
+	width: 780px;
+}
+.col11{
+	width: 860px;
+}
+.col12{
+	width: 940px;
+}
+
+ul.sem-marcador, ol.sem-marcador{
+	list-style: none;
+}
+.menu{
+	text-transform: uppercase;
+	text-align: left;
+    margin-top: 20px;   
+}
+.menu li{
+    margin-top: 20px;
+}
+.menu li a{
+	padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.menu li a:hover{
+	text-decoration: none;
+	background: #333;
+	color: #ebebeb;
+}
+h1.logo{
+	font-weight: 700;
+	color: #000000;
+	letter-spacing: -1px;
+}
+.header{
+	background:#B0E0E6;
+}
+.conteudo{
+    background: #F0FFFF;
+}
+.footer{
+	background: #1f3c58;
+	color: #ebebeb;
+	padding: 20px 0;
+	text-align: center;
+	font-weight: 100;
+}
+section{
+    overflow: hidden;
+}
+.lateral{
+    height: 100%;  
+}
