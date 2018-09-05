@@ -1,5 +1,4 @@
-function getRandom(max) {
-    max = 3;
+function getRandom(max) {    
     return Math.floor(Math.random() * max + 1)
 }
 function jogar(){
@@ -33,7 +32,7 @@ function jogar(){
 }
 function jogarm(){
     var x = document.getElementById('numero1').value;
-    var y = getRandom(4);
+    var y = getRandom(3);
 
     x = Number(x);
     y = Number(y);
